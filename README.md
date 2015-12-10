@@ -8,7 +8,7 @@ See [this instruction](http://morfy.org/documentation/plugins/plugins-installati
 ## Usage in page content
 
 ```
-{Image open="themes/default/assets/img/morfy-logo.png" width=100 height=100}
+!(Image)[{Image open="themes/default/assets/img/morfy-logo.png" width=100 height=100}]
 ```
 
 ### Parameters
@@ -47,7 +47,7 @@ See [this instruction](http://morfy.org/documentation/plugins/plugins-installati
 In the templates you have a full power of [Gregwar Image Class](https://github.com/Gregwar/Image).
 
 ```smarty
-{Image::open('themes/default/assets/img/morfy-logo.png')->resize(100, 100)->png()
+<img src="{Image::open('themes/default/assets/img/morfy-logo.png')->resize(100, 100)->png()}" />
 ```
 
 ## Options
