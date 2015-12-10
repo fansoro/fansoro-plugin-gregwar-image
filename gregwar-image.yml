@@ -1,0 +1,13 @@
+name: Gregwar Image
+version: 1.0.0
+description: "The Gregwar Image plugin provide a simple object-oriented images handling and caching API with Gregwar Image Class."
+author:
+  name: Sergey Romanenko
+  email: awilum@msn.com
+  url: http://morfy.org
+homepage: https://github.com/morfy-cms/morfy-plugin-gregwar-image
+bugs: https://github.com/morfy-cms/morfy-plugin-gregwar-image/issues
+license: MIT
+
+# Plugin settings
+enabled: true
