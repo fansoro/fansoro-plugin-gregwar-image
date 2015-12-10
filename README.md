@@ -47,7 +47,7 @@ See [this instruction](http://morfy.org/documentation/plugins/plugins-installati
 In the templates you have a full power of [Gregwar Image Class](https://github.com/Gregwar/Image).
 
 ```smarty
-<img src="{Image::open('themes/default/assets/img/morfy-logo.png')->resize(100, 100)->png()}" />
+<img src="{Image::open('themes/default/assets/img/morfy-logo.png')->resize(100, 100)}" />
 ```
 
 ## Options
