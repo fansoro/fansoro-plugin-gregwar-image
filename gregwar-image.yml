@@ -4,9 +4,9 @@ description: "The Gregwar Image plugin provide a simple object-oriented images h
 author:
   name: Sergey Romanenko
   email: awilum@msn.com
-  url: http://morfy.org
-homepage: https://github.com/morfy-cms/morfy-plugin-gregwar-image
-bugs: https://github.com/morfy-cms/morfy-plugin-gregwar-image/issues
+  url: http://fansoro.org
+homepage: https://github.com/fansoro/fansoro-plugin-gregwar-image
+bugs: https://github.com/fansoro/fansoro-plugin-gregwar-image/issues
 license: MIT
 
 # Plugin settings

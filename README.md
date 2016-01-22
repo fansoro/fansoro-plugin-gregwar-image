@@ -3,12 +3,12 @@
 The Gregwar Image plugin provide a simple object-oriented images handling and caching API with [Gregwar Image Class](https://github.com/Gregwar/Image).
 
 ## Installation
-See [this instruction](http://morfy.org/documentation/plugins/plugins-installation)
+See [this instruction](http://fansoro.org/documentation/plugins/plugins-installation)
 
 ## Usage in page content
 
 ```
-!(Image)[{Image open="themes/default/assets/img/morfy-logo.png" width=100 height=100}]
+!(Image)[{Image open="themes/default/assets/img/fansoro-logo.png" width=100 height=100}]
 ```
 
 ### Parameters
@@ -47,7 +47,7 @@ See [this instruction](http://morfy.org/documentation/plugins/plugins-installati
 In the templates you have a full power of [Gregwar Image Class](https://github.com/Gregwar/Image).
 
 ```smarty
-<img src="{Image::open('themes/default/assets/img/morfy-logo.png')->resize(100, 100)}" />
+<img src="{Image::open('themes/default/assets/img/fansoro-logo.png')->resize(100, 100)}" />
 ```
 
 ## Options
@@ -57,4 +57,4 @@ In the templates you have a full power of [Gregwar Image Class](https://github.c
 | enabled | true | or `false` to disable the plugin |
 
 ## License
-See  [LICENSE](https://github.com/morfy-cms/morfy-plugin-gregwar-image/blob/master/LICENSE)
+See [LICENSE](https://github.com/fansoro/fansoro-plugin-gregwar-image/blob/master/LICENSE)

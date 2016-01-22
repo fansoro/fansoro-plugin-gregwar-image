@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Morfy Gregwar Image Plugin
+ * Fansoro Gregwar Image Plugin
  *
  * (c) Romanenko Sergey / Awilum <awilum@msn.com>
  *
@@ -14,13 +14,13 @@ require_once(__DIR__ . '/vendor/autoload.php');
 use Gregwar\Image\Image as GregwarImage;
 
 // Usage in templates:
-// {Image::open('themes/default/assets/img/morfy-logo.png')->resize(100, 100)->png()}
+// {Image::open('themes/default/assets/img/fansoro-logo.png')->resize(100, 100)->png()}
 class image extends GregwarImage
 {
 }
 
 // Shortcode:
-// {Image open="themes/default/assets/img/morfy-logo.png"}
+// {Image open="themes/default/assets/img/fansoro-logo.png"}
 Shortcode::add('Image', function ($attributes) {
 
     // Extract attributes
